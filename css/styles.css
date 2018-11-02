@@ -1,0 +1,29 @@
+body .material-icons {
+    width: auto;
+}
+md-card-content img {
+    width: 100%;
+}
+button.md-button {
+    line-height: 26px;
+}
+.search-term {
+    margin: 24px 0 0;
+}    
+.classified.ng-enter, .classified.ng-move {
+    transition: 0.4s all;
+    opacity: 0;
+}
+.classified.ng-enter.ng-enter-active, 
+.classified.ng-move.ng-move-active {
+    opacity: 1;
+}
+
+.classified.ng-leave {
+    animation: 0.4s fadeClassifieds;
+}
+
+@keyframes fadeClassifieds {
+    from {opacity: 1}
+    to {opacity: 0}
+}
